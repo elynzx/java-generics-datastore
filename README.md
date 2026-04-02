@@ -13,6 +13,11 @@ Implement a generic data structure `DataStore<T, K>` to store, search, and delet
 - `find(K key)`: Returns the element or `null`.
 - `getAll()`: Returns a list of all stored elements.
 
+## Project Structure
+- `DataStore<T, K>`: The core generic logic.
+- `User`: A sample model class (`id`, `name`) to test the implementation.
+- `Main`: Driver class to demonstrate functionality (Add, Find, Delete).
+
 ## Tech Stack
 - Java 17+
 - IntelliJ IDEA
